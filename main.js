@@ -288,37 +288,106 @@
 
 // mission class number 3 
 
-class professor {
-    firstName;
-    lastName;
-    payForHours;
-    hoursWeeks;
-    PhoneNumber;
+// class professor {
+//     firstName;
+//     lastName;
+//     payForHours;
+//     hoursWeeks;
+//     PhoneNumber;
 
-    constructor(nameFromUser,lastFromUser,payFromUser,hoursFromUser,phoneFromUser){
-        this.firstName=nameFromUser;
-        this.lastName=lastFromUser;
-        this.payForHours=payFromUser;
-        this.hoursWeeks=hoursFromUser;
-        this.PhoneNumber=phoneFromUser
-    }
+//     constructor(nameFromUser,lastFromUser,payFromUser,hoursFromUser,phoneFromUser){
+//         this.firstName=nameFromUser;
+//         this.lastName=lastFromUser;
+//         this.payForHours=payFromUser;
+//         this.hoursWeeks=hoursFromUser;
+//         this.PhoneNumber=phoneFromUser
+//     }
 
-}
+// }
 
-const lior= new professor ("lior","yosef",53,455,05477);
-const dan = new professor("dan","aibinder",40,30,050576);
+// const lior= new professor ("lior","yosef",53,455,05477);
+// const dan = new professor("dan","aibinder",40,30,050576);
+
+// ******************************** !
+
+
+//  mission class number 4 
+
+//  class professor {
+//      firstName;
+//      lastName;
+//      payForHours;
+//      hoursWeeks;
+//      PhoneNumber;
+
+//      constructor(nameFromUser,lastFromUser,payFromUser,hoursFromUser,phoneFromUser){
+//          this.firstName=nameFromUser;
+//          this.lastName=lastFromUser;
+//          this.payForHours=payFromUser;
+//          this.hoursWeeks=hoursFromUser;
+//          this.PhoneNumber=phoneFromUser
+//      }
+
+//  }
+
+//  const lior= new professor ("lior","yosef",53,455,05477);
+//  const dan = new professor("dan","aibinder",40,30,050576);
+
+//  function printToLog() {
+
+//     for (const key in lior) {
+//         console.log(`${key} ${lior[key]}`);
+//     }
+     
+//  }
+//  printToLog()
+
+
 
 // ******************************** !
 
 
 
+// mission number 7+8 
+
+// let firstName = document.getElementById("first");
+// let lastName = document.getElementById("last");
+// let pay = document.getElementById("pay");
+// let hours = document.getElementById("hours");
+// let phone = document.getElementById("phone");
+// let btn = document.getElementById("btn");
+// let contener = document.getElementById("contener");
+// let table = document.getElementById("table");
 
 
+// class professor {
+//     firstName;
+//     lastName;
+//     payForHours;
+//     hoursWeeks;
+//     PhoneNumber;
 
+//     constructor(nameFromUser, lastFromUser, payFromUser, hoursFromUser, phoneFromUser) {
+//         this.firstName = nameFromUser;
+//         this.lastName = lastFromUser;
+//         this.payForHours = payFromUser;
+//         this.hoursWeeks = hoursFromUser;
+//         this.PhoneNumber = phoneFromUser;
+//     }
 
+// }
 
+// function printToLog() {
+//     btn.onclick = () => {
+//         let professor1 = new professor(firstName.value, lastName.value, pay.value, hours.value, phone.value);
 
+//         // console.log(professor1);
+//         // contener.innerHTML = `${professor1.firstName} <br> ${professor1.lastName} <br> ${professor1.payForHours} <br> ${professor1.hoursWeeks} <br> ${professor1.PhoneNumber} <br>   `
 
-// mission number 1 
+//         table.innerHTML= `<tr> <td>${professor1.firstName} </td> <td>${professor1.lastName} </td> <td>${professor1.payForHours} </td> <td> ${professor1.hoursWeeks}</td> <td> ${professor1.PhoneNumber}</td> <td> </td></tr>`
+//     }
+
+// }
+// printToLog()
 
 // ******************************** !
