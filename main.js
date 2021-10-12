@@ -148,6 +148,81 @@
 
 // ******************************** !
 
+// mission number 6
+
+let numbers = document.getElementsByClassName("input");
+let btn = document.getElementById("submit");
+
+
+btn.onclick = () => {
+
+    let inputNumbers = [];
+    let randomNumbers = [];
+
+    for (let i = 0; i < numbers.length; i++) {
+        let userNumber = Number(numbers[i].value);
+
+        if (userNumber < 1 || userNumber > 100 || inputNumbers.indexOf(userNumber) != -1) {
+            alert(`try again :${userNumber}`);
+            return;
+        }
+        else {
+            inputNumbers.push(userNumber)
+        }
+    }
+
+    while(randomNumbers.length < 50) {
+        let num = Math.floor(Math.random() * 100) + 1;
+        
+        if (randomNumbers.indexOf(num) == -1) {
+            
+            randomNumbers.push(num);
+        }
+
+    }
+
+    let counter = 0;
+
+    for (let i = 0; i < inputNumbers.length; i++) {
+
+        if (randomNumbers.indexOf(inputNumbers[i]) != -1) {
+            counter++
+            console.log(inputNumbers[i]);
+        }
+    }
+
+    console.log(randomNumbers);
+    alert("all fine");
+
+    alert(`you get ${counter} points`);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ******************************** !
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -338,7 +413,7 @@
 //     for (const key in lior) {
 //         console.log(`${key} ${lior[key]}`);
 //     }
-     
+
 //  }
 //  printToLog()
 
